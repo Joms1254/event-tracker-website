@@ -16,9 +16,9 @@ const Home = () => {
       toast.error("Please fill out all details to login");
     }
 
-    if(email == "thegildgroup@gmail.com" && password == "12345678") {
+    if(email == "padillajomar784@gmail.com" && password == "123") {
       localStorage.setItem('token', 'true');
-      localStorage.setItem('user', 'admin@admin.com');
+      localStorage.setItem('user', 'padillajomar784@gmail.com');
       navigate('/dashboard');
       toast.success('Login successful');
     } else {
@@ -31,7 +31,7 @@ const Home = () => {
     <div className="bg-gray-50" style={{backgroundColor:"#FFF5BA"}}>
       <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
-          <a href="javascript:void(0)"> <h1 style={{color:"Green", fontSize:"30px", textAlign:"center", fontWeight:"bolder", paddingBottom:"10px"}}>The Gild Group</h1>
+          <a href="javascript:void(0)"> <h1 style={{color:"Green", fontSize:"30px", textAlign:"center", fontWeight:"bolder", paddingBottom:"10px"}}>Event Tracker</h1>
             
             {/* <img
             src={LOGO} alt="logo" className='w-60 mb-8 mx-auto block' /> */}
