@@ -15,10 +15,9 @@ const Home = () => {
     if(email === '' || password === '') {
       toast.error("Please fill out all details to login");
     }
-
-    if(email == "padillajomar784@gmail.com" && password == "123") {
+    if(email == "thegildgroup@gmail.com" && password == "12345678") {
       localStorage.setItem('token', 'true');
-      localStorage.setItem('user', 'padillajomar784@gmail.com');
+      localStorage.setItem('user', 'admin@admin.com');
       navigate('/dashboard');
       toast.success('Login successful');
     } else {
